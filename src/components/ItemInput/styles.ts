@@ -30,6 +30,13 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingRight: 10
   },
+  listContainer:{
+    borderWidth: 1,
+    borderColor: '#000',
+    borderRadius: 8,
+    padding: 10,
+    margin:5
+  },
   listItem: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -55,10 +62,6 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   list:{    
-    borderWidth: 1,
-    borderColor: '#000',
-    borderRadius: 8,
-    padding: 16,
     margin: 5,
     fontSize: 18, 
     backgroundColor: '#fff',    
@@ -83,5 +86,18 @@ export const styles = StyleSheet.create({
   completedText: {
     textDecorationLine: 'line-through',
     color: 'gray',
-  }
+  },
+  listHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: 10,  
+    borderBottomWidth:1, 
+    borderColor: '#ccc',
+    marginRight: 70,
+    marginLeft: 30
+  },
+  listHeaderText: {
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
 });
