@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     width: '100%',
     height: 80,
-    backgroundColor: '#3e3e3e',    
+    backgroundColor: 'black',    
     alignItems: "flex-end", 
        
   },

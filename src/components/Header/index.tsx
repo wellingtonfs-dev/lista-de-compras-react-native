@@ -7,7 +7,7 @@ import { styles } from './styles';
 export function Header() {
   return (
     <View style={styles.container}>
-        <FontAwesome6 name="cart-shopping" size={24} color="black" />
+        <FontAwesome6 name="cart-shopping" size={24} color="white" />
         <Text style={styles.text}>Meu carrinho</Text>
     </View>
   );

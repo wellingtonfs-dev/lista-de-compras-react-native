@@ -9,6 +9,7 @@ export default function App() {
     <View style={styles.container}>
       <Header/>      
       <ItemInput/>
+      <StatusBar style="inverted" />
     </View>
   );
 }
